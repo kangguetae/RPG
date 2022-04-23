@@ -1,5 +1,5 @@
 package Game;
-//
+//d
 public class Character {
 	String name;
 	int dmg, hp, exp, level;
