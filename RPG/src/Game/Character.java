@@ -1,9 +1,9 @@
 package Game;
 
 //d
-public class Character {
+public class Character implements Items{
 	String name;
-	int dmg, hp, exp, level;
+	int dmg, hp, exp, level, guard, money;
 
 	public Character() {
 
@@ -11,6 +11,7 @@ public class Character {
 
 //	public String getType() {return "";}		
 
+	
 	
 	
 	public void attack(Character c) {

@@ -4,7 +4,7 @@ public class Player extends Character{
 	
 	
 	
-	int guard, mp, maxEXP, maxHP;
+	int mp, maxEXP, maxHP;
 	
 	public Player(String name) {
 		this.dmg = 10;
@@ -13,6 +13,8 @@ public class Player extends Character{
 		this.exp = 0;
 		this.maxEXP = 20;
 		this.name = name;
+		money = 10;
+		guard = 1;
 		maxHP = 100;
 	}
 	
@@ -36,7 +38,7 @@ public class Player extends Character{
 	}
 	
 	public void playerInfo() {
-		System.out.println("이름: "+name +"\n레벨: "+level+"\n체력: "+hp+"\n경험치"+exp+"/"+maxEXP);
+		System.out.println("이름: "+name +"\n레벨: "+level+"\n체력: "+hp+"\n경험치: "+exp+"/"+maxEXP);
 	}
 	
 	
